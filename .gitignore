@@ -1,2 +1,4 @@
 .vagrant/
 .vscode/
+.mypy_cache/
+__pycache__/

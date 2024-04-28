@@ -6,6 +6,10 @@ authors = ["Arseniy Savin <ayusavin@fantast.dev>"]
 readme = "README.md"
 license = "MIT"
 
+[tool.poetry.scripts]
+lint = 'scripts:LintScript'
+format = 'scripts:FormatScript'
+
 [tool.poetry.dependencies]
 python = "^3.11"
 
