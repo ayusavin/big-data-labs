@@ -7,6 +7,8 @@ readme = "README.md"
 license = "MIT"
 
 [tool.poetry.scripts]
+vagrant-up = 'scripts:VagrantUpScript'
+vagrant-down = 'scripts:VagrantDownScript'
 lint = 'scripts:LintScript'
 format = 'scripts:FormatScript'
 
