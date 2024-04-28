@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "src"
+version = "1.0.0"
+description = "University Big Data laboratory and practice tasks"
+authors = ["Arseniy Savin <ayusavin@fantast.dev>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.2"
+mypy = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
