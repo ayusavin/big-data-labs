@@ -2,3 +2,7 @@
 .vscode/
 .mypy_cache/
 __pycache__/
+
+# Map-Reduce lab related
+teachers
+lectures.json
