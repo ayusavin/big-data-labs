@@ -14,11 +14,18 @@ format = 'scripts:FormatScript'
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupysql = "^0.10.10"
+clickhouse-sqlalchemy = "^0.3.1"
+pandas = "^2.2.2"
+pyspark = "3.5.1"
+grpcio = "^1.63.0"
+pyarrow = "^16.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.2"
 mypy = "^1.10.0"
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core"]
